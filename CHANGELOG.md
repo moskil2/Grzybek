@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.7 - 2026-10-12 (versionCode 18)
+- Zapis trasy przy wygaszonym ekranie korzysta bezpośrednio z GPS telefonu, z pozycją co sekundę. Dotyczy zwłaszcza telefonów Samsung, na których trasa potrafiła zatrzymać się kilka minut po wygaszeniu ekranu.
+- Na postoju trasa nie dolicza już metrów z drobnych wahań pozycji GPS.
+- Gdy powiadomienia Grzybka są wyłączone, przy starcie wyprawy pojawia się prośba o ich włączenie: ciche powiadomienie o zapisie pomaga utrzymać zapis trasy przy wygaszonym ekranie.
+
 ## v0.1.1 - 2026-10-09 (versionCode 12)
 - Kafelka „Bateria” w Ustawieniach ma zawsze przycisk: gdy Grzybek może już pracować w tle, „Ustawienia baterii telefonu” otwiera jego ustawienia w systemie.
 - Na telefonach Xiaomi, Huawei i Samsung kafelka stale pokazuje podpowiedź o dodatkowym ustawieniu producenta.
